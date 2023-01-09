@@ -2,8 +2,7 @@ export const drpDown = () => {
     let mylist = document.getElementById("myList"); 
 }
 
-
-const urrl = 'https://podcast-api.netlify.app/id/10716'
+const urrl = `https://podcast-api.netlify.app/id/${podcast.id}`;
 export const disply = () => {
     fetch(urrl).then((response) => {
         return response.json()

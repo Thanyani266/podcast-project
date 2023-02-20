@@ -1,2 +1,2 @@
 # podcast-project
- User Stories
+ Podcast website displaying the shows and their meta-data.
